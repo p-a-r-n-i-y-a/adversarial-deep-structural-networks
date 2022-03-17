@@ -4,7 +4,7 @@ import numpy as np
 import scipy.io as sio
 import os
 import scipy.misc
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import utils_combine
 from utils_combine import fetchdatalabel, calfilter, init, initcomb, model, crfatmodel, cnnatmodel, meanstd, cnnmodel, dice
 rng = np.random.RandomState(1234)
